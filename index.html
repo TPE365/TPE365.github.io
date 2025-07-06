@@ -2,44 +2,31 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Трезвые 365</title>
+  <title>Перейти на канал</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body {
-      background-color: #000;
-      color: #fff;
-      text-align: center;
-      font-family: Arial, sans-serif;
+    html, body {
       margin: 0;
       padding: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
     }
-    img {
-      width: 200px;
-      max-width: 80%;
-      height: auto;
-      margin-bottom: 40px;
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
     }
-    a.button {
-      display: inline-block;
-      background: #1da1f2;
-      color: #fff;
-      padding: 15px 30px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 20px;
-    }
-    a.button:hover {
-      background: #0d8ddb;
+    a img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="Трезвые 365">
-  <a class="button" href="https://t.me/TPE365" target="_blank">Перейти на Telegram-канал</a>
+  <a href="https://t.me/TPE365" target="_blank">
+    <img src="logo.png" alt="Перейти на канал">
+  </a>
 </body>
 </html>
